@@ -18,7 +18,7 @@ public class BSTPairSum {
 
 		set.add(root.val);
 
-		// Search in both left and right subtrees
+	
 		boolean foundLeft = findPairWithSum(root.left, targetSum, set);
 		boolean foundRight = findPairWithSum(root.right, targetSum, set);
 
